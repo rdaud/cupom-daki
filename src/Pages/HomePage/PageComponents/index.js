@@ -1,0 +1,5 @@
+export * from './Header'
+export * from './Cupom'
+export * from './Extras'
+export * from './Footer'
+export * from './Noticias'

@@ -1,0 +1,43 @@
+.fade-out {
+    transform: translateY(-10px);
+    opacity: 0 !important;
+    transition: all .3s;
+}
+
+.fade-in {
+    transform: translateY(-10px) !important;
+    opacity: .6 !important;
+    transition: all .3s;
+}
+
+.copiado2 {
+    border: 1px solid red !important;
+    background: #ff000030 !important;
+    
+}
+
+.copiar, .copiado {
+   
+    opacity: 0;
+}
+
+@keyframes animateButtonOnClick {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.animate-button {
+    animation: animateButtonOnClick .5s ease-in-out forwards;
+}
+
+
